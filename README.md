@@ -1,25 +1,18 @@
 # Adonis API application
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+USANDO BANCO SQLITE3
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+A Porta principal da aplicação é a http://localhost:3333
+As unicas coisas que estão diferentes:
 
-## Setup
-
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick --api-only
+ROTA DE CRIAÇÃO 'http://localhost:3333/car' (POST)
+ROTA DE LISTAGEM 'http://localhost:3333/cars' (GET)
 ```
+Para rodar o servidor use
+$ adonis serve
 
-or manually clone the repo and then run `npm install`.
 
-
-### Migrations
+### faça as Migrações para um banco sqlite3 usando o comando abixo
 
 Run the following command to run startup migrations.
 
