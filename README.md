@@ -5,8 +5,8 @@ USANDO BANCO SQLITE3
 A Porta principal da aplicação é a http://localhost:3333
 As unicas coisas que estão diferentes:
 
-ROTA DE CRIAÇÃO 'http://localhost:3333/car' (POST)
-ROTA DE LISTAGEM 'http://localhost:3333/cars' (GET)
+ROTA DE CRIAÇÃO 'http://localhost:3333/car'  ||  
+ROTA DE LISTAGEM 'http://localhost:3333/cars'
 ```
 Para rodar o servidor use
 $ adonis serve
